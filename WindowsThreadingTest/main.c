@@ -11,8 +11,8 @@
 /* Number of threads to spawn. */
 #define NUM_THREADS                 3
 
-/* Waitable timer period (in threads). */
-#define WAITABLE_TIMER_PERIOD_MS    1000
+/* Waitable timer period (in threads). 1s * NUM_THREADS in relative time (LARGE_INTEGER/FILETIME format) */
+#define WAITABLE_TIMER_PERIOD    ( NUM_THREADS * -10000000LL )
 
 /**
  **********************************************************************************************************************
@@ -154,7 +154,7 @@ static DWORD WINAPI ThreadFunction( LPVOID pThreadData )
 
     /* Start waitable timer. */
     LARGE_INTEGER liDueTime;
-    liDueTime.QuadPart = -10000000LL; /* 1s, relative time. */
+    liDueTime.QuadPart = WAITABLE_TIMER_PERIOD;
 
     if ( SetWaitableTimer(
         waitableTimer,              /* Timer handle.                                                                     */
