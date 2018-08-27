@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsThreadingTest", "WindowsThreadingTest\WindowsThreadingTest.vcxproj", "{51394930-D83F-4290-B545-6BDBE32C32FD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerialComm", "SerialComm\SerialComm.vcxproj", "{0C79483A-2892-4783-8278-C12D4C991C97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadingTest", "ThreadingTest\ThreadingTest.vcxproj", "{51394930-D83F-4290-B545-6BDBE32C32FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Debug|x64.ActiveCfg = Debug|x64
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Debug|x64.Build.0 = Debug|x64
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Debug|x86.Build.0 = Debug|Win32
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Release|x64.ActiveCfg = Release|x64
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Release|x64.Build.0 = Release|x64
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Release|x86.ActiveCfg = Release|Win32
+		{0C79483A-2892-4783-8278-C12D4C991C97}.Release|x86.Build.0 = Release|Win32
 		{51394930-D83F-4290-B545-6BDBE32C32FD}.Debug|x64.ActiveCfg = Debug|x64
 		{51394930-D83F-4290-B545-6BDBE32C32FD}.Debug|x64.Build.0 = Debug|x64
 		{51394930-D83F-4290-B545-6BDBE32C32FD}.Debug|x86.ActiveCfg = Debug|Win32

@@ -23,6 +23,7 @@
     <ProjectGuid>{51394930-D83F-4290-B545-6BDBE32C32FD}</ProjectGuid>
     <RootNamespace>WindowsThreadingTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>ThreadingTest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

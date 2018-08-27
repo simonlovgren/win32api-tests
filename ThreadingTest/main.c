@@ -1,3 +1,13 @@
+/**
+ **********************************************************************************************************************
+ * @file       main.c
+ * @author     Simon Lövgren
+ * @date       2018
+ * @copyright  MIT License
+ * @brief      Multi-threading test.
+ **********************************************************************************************************************
+ */
+
 #include <windows.h>
 #include <stdio.h>
 #include <stdint.h>
@@ -21,14 +31,14 @@
  */
 
 /* Holds data for thread */
-typedef struct
+typedef struct sThreadData
 {
     HANDLE  threadHandle;  /* Handle to win32 thread itself. */
     uint8_t id;            /* ID of thread. */
 } tThreadData;
 
 /* Holds data for main. */
-typedef struct
+typedef struct sMainData
 {
     tThreadData threads[ NUM_THREADS ]; /* Data for all threads to be spawned. */
 } tMainData;
