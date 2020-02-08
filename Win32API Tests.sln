@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerialComm", "SerialComm\SerialComm.vcxproj", "{0C79483A-2892-4783-8278-C12D4C991C97}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadingTest", "ThreadingTest\ThreadingTest.vcxproj", "{51394930-D83F-4290-B545-6BDBE32C32FD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultimediaTimerTest", "MultimediaTimerTest\MultimediaTimerTest.vcxproj", "{D43B11A8-7728-4EF5-8ADA-5C5792DA1A01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaunchNewProcess", "LaunchNewProcess\LaunchNewProcess.vcxproj", "{38D85017-90AD-43A8-B09C-46E23631F0FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{D43B11A8-7728-4EF5-8ADA-5C5792DA1A01}.Release|x64.Build.0 = Release|x64
 		{D43B11A8-7728-4EF5-8ADA-5C5792DA1A01}.Release|x86.ActiveCfg = Release|Win32
 		{D43B11A8-7728-4EF5-8ADA-5C5792DA1A01}.Release|x86.Build.0 = Release|Win32
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Debug|x64.ActiveCfg = Debug|x64
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Debug|x64.Build.0 = Debug|x64
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Debug|x86.Build.0 = Debug|Win32
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Release|x64.ActiveCfg = Release|x64
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Release|x64.Build.0 = Release|x64
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Release|x86.ActiveCfg = Release|Win32
+		{38D85017-90AD-43A8-B09C-46E23631F0FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
